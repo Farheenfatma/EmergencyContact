@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Settings"
+        app:titleTextColor="#fff"
+        android:background="#3F51B5"></android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/updateEM_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.9"
+        android:onClick="open"
+        android:background="#29064fae"
+        android:text="update Emergency" />
+
+    <Button
+        android:id="@+id/updateUser_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.9"
+        android:onClick="open"
+        android:background="#29064fae"
+        android:text="Update user" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.82"
+        android:onClick="open"
+        android:background="#29064fae"
+        android:text="home" />
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.82"
+        android:onClick="open"
+        android:background="#29064fae"
+        android:text="logout" />
+
+</LinearLayout>
